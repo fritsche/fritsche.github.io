@@ -58,25 +58,38 @@ section {
     height: 9rem;
 }
 
-.bg-seagreen {
-    background-color: #2E8B57;
+.bg-darkgreen {
+    background-color: #125634;
 }
 
-.bg-seablue {
+.bg-darkblue {
     background-color: #123456;
 }
 
-.bg-simpsons-yellow {
-    background-color: #FFCC00;
+.bg-darkbrown {
+    background-color: #563412;
+}
+
+.bg-darkpurple {
+    background-color: #561234;
+}
+
+.bg-sweet {
+    background-color: #f4A6c5;
+}
+
+.bg-skyblue {
+    background-color: #2FA4E7;
 }
 
 .card {
-    width: 20rem;
-    margin-top: 2rem;
+    width: 21rem;
+    margin: 1.5rem;
 }
 
 .card-text {
     font-size: 1rem;
+    hyphens: auto;
 }
 
 .hr-dark {
