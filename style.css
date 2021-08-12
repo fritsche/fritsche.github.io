@@ -1,15 +1,37 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
 
-h1 {
+:root {
+    --red-primary: #7B241C
+}
+
+body {
+    font-family: 'Hahmlet', serif;
+}
+
+h1, h2, h3, h4, .navbar-brand {
     font-family: 'Averia Serif Libre', cursive;
+}
+
+h1, h2 {
     padding-bottom: 1.5rem;
+    color: var(--red-primary)
+}
+
+.bg-red {
+    background-color: var(--red-primary)
+}
+
+.border-red {
+    border: 0.5rem solid var(--red-primary)
 }
 
 p {
-    font-family: 'Hahmlet', serif;
     text-align: justify;
+}
+
+.navbar-link {
+    text-decoration: none;
 }
 
 @media (orientation: landscape) {
@@ -18,7 +40,7 @@ p {
     }
 }
 
-section { 
+section {
     position: relative;
     min-height: 100vh;
     display: flex;
@@ -26,4 +48,52 @@ section {
     justify-content: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.card-text-top {
+    font-size: 5rem;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 9rem;
+}
+
+.bg-darkgreen {
+    background-color: #125634;
+}
+
+.bg-darkblue {
+    background-color: #123456;
+}
+
+.bg-darkbrown {
+    background-color: #563412;
+}
+
+.bg-darkpurple {
+    background-color: #561234;
+}
+
+.bg-sweet {
+    background-color: #f4A6c5;
+}
+
+.bg-skyblue {
+    background-color: #2FA4E7;
+}
+
+.card {
+    width: 21rem;
+    margin: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    hyphens: auto;
+}
+
+.hr-dark {
+    border: .05rem solid var(--bs-body-color);
+    padding: 0;
+    margin: .5rem 0;
 }
