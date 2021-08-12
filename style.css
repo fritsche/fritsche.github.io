@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+
+h1 {
+    font-family: 'Averia Serif Libre', cursive;
+    padding-bottom: 1.5rem;
+}
+
+p {
+    font-family: 'Hahmlet', serif;
+    text-align: justify;
+}
+
+@media (orientation: landscape) {
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+section { 
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
