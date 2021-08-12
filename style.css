@@ -100,3 +100,8 @@ section {
 a h4 {
     text-decoration: none;
 }
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
