@@ -103,7 +103,7 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
 .flip-card {
     background-color: transparent;
     width: 25rem;
-    height: 25rem;
+    height: 22rem;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     margin: 1rem;
 }
