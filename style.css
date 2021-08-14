@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap');
 :root {
     --red-primary: #7B241C;
 }
 
 body {
-    font-family: 'Hahmlet', serif;
+    font-family: 'Andada Pro', serif;
 }
 
 h1, h2, h3, h4, .navbar-brand {
