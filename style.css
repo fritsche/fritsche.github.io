@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap');
 :root {
@@ -111,7 +112,7 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
 @media only screen and (max-width: 600px) { 
     .flip-card {
         width: 90vw;
-        height: 90vw;
+        height: 80vh;
     }
 }
 
@@ -185,4 +186,8 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
 
 @keyframes zoommove {
     50% {height: 24px; width: 24px;}
+}
+
+.badge {
+    font-weight: normal;
 }
