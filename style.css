@@ -13,8 +13,11 @@ h1, h2, h3, h4, .navbar-brand {
 }
 
 h1, h2 {
-    padding-bottom: 1.5rem;
     color: var(--red-primary)
+}
+
+h1 {
+    padding-bottom: 1.5rem;
 }
 
 .bg-red {
@@ -82,8 +85,16 @@ section {
 }
 
 .card {
-    width: 21rem;
-    margin: 1.5rem;
+    width: 18rem;
+    margin: 2rem .5rem;
+}
+
+@media (max-width: 36rem)
+{
+    .card {
+        width: 100%;
+        margin: 0.5rem .5rem;
+    }    
 }
 
 .card-text {
