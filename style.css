@@ -36,12 +36,6 @@ p {
     text-decoration: none;
 }
 
-@media (orientation: landscape) {
-    p {
-        font-size: 1.25rem;
-    }
-}
-
 section {
     position: relative;
     min-height: 100vh;
@@ -50,6 +44,18 @@ section {
     justify-content: center;
     padding-top: 5rem;
     padding-bottom: 2rem;
+}
+
+@media (orientation: landscape) {
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (orientation: portrait) {
+    section {
+        padding-top: 7rem;
+    }
 }
 
 .card-text-top {
@@ -89,12 +95,11 @@ section {
     margin: 2rem .5rem;
 }
 
-@media (max-width: 36rem)
-{
+@media (max-width: 36rem) {
     .card {
         width: 100%;
         margin: 0.5rem .5rem;
-    }    
+    }
 }
 
 .card-text {
