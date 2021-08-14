@@ -24,10 +24,6 @@ h1 {
     background-color: var(--red-primary)
 }
 
-.border-red {
-    border: 0.5rem solid var(--red-primary)
-}
-
 p {
     text-align: justify;
 }
@@ -36,7 +32,11 @@ p {
     text-decoration: none;
 }
 
-section {
+.text-muted {
+    font-size: 1rem;
+}
+
+.section {
     position: relative;
     min-height: 100vh;
     display: flex;
@@ -58,48 +58,9 @@ section {
     }
 }
 
-.card-text-top {
-    font-size: 5rem;
-    text-align: center;
-    vertical-align: middle;
-    width: 100%;
-    height: 9rem;
-}
-
-.bg-darkgreen {
-    background-color: #125634;
-}
-
-.bg-darkblue {
-    background-color: #123456;
-}
-
-.bg-darkbrown {
-    background-color: #563412;
-}
-
-.bg-darkpurple {
-    background-color: #561234;
-}
-
-.bg-sweet {
-    background-color: #f4A6c5;
-}
-
-.bg-skyblue {
-    background-color: #2FA4E7;
-}
-
 .card {
-    width: 18rem;
-    margin: 2rem .5rem;
-}
-
-@media (max-width: 36rem) {
-    .card {
-        width: 100%;
-        margin: 0.5rem .5rem;
-    }
+    width: 33rem;
+    margin: 1rem 1rem;
 }
 
 .card-text {
