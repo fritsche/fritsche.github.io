@@ -9,12 +9,12 @@ body {
     font-family: 'Andada Pro', serif;
 }
 
-h1, h2, h3, h4, .navbar-brand {
+h1, h2, h4, .navbar-brand {
     font-family: 'Averia Serif Libre', cursive;
 }
 
 h1, h2 {
-    color: var(--red-primary)
+    color: var(--bs-dark)
 }
 
 h1 {
@@ -22,11 +22,11 @@ h1 {
 }
 
 .bg-red {
-    background-color: var(--red-primary)
+    background-color: var(--bs-dark)
 }
 
 .text-red {
-    color: var(--red-primary)
+    color: var(--bs-dark)
 }
 
 p {
