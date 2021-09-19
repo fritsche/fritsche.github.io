@@ -99,3 +99,7 @@ span.badge {
 .badge {
     font-weight: normal;
 }
+
+#madewith p {
+    text-align: center;
+}
